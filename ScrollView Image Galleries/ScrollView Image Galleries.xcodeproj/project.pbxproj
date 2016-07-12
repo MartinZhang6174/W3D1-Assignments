@@ -13,6 +13,7 @@
 		9C1ACE851D345E18006635BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1ACE831D345E18006635BE /* Main.storyboard */; };
 		9C1ACE871D345E18006635BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C1ACE861D345E18006635BE /* Assets.xcassets */; };
 		9C1ACE8A1D345E18006635BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C1ACE881D345E18006635BE /* LaunchScreen.storyboard */; };
+		9C1ACE931D347649006635BE /* SecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1ACE921D347649006635BE /* SecondaryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9C1ACE861D345E18006635BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C1ACE891D345E18006635BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C1ACE8B1D345E18006635BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1ACE911D347649006635BE /* SecondaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondaryViewController.h; sourceTree = "<group>"; };
+		9C1ACE921D347649006635BE /* SecondaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondaryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				9C1ACE7D1D345E18006635BE /* AppDelegate.h */,
 				9C1ACE7E1D345E18006635BE /* AppDelegate.m */,
+				9C1ACE911D347649006635BE /* SecondaryViewController.h */,
+				9C1ACE921D347649006635BE /* SecondaryViewController.m */,
 				9C1ACE801D345E18006635BE /* ViewController.h */,
 				9C1ACE811D345E18006635BE /* ViewController.m */,
 				9C1ACE831D345E18006635BE /* Main.storyboard */,
@@ -153,6 +158,7 @@
 				9C1ACE821D345E18006635BE /* ViewController.m in Sources */,
 				9C1ACE7F1D345E18006635BE /* AppDelegate.m in Sources */,
 				9C1ACE7C1D345E18006635BE /* main.m in Sources */,
+				9C1ACE931D347649006635BE /* SecondaryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +307,7 @@
 				9C1ACE901D345E18006635BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
